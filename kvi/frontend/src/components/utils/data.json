@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "VPS - Windows",
+    "slug":"cloud",
+    "category": "Digital Transformation",
+    "price": 1899,
+    "image":"https://media.1lives.us/wp-content/uploads/2022/11/vpswindows.png",
+    "quantity":1,
+    "brand": "Cloud VPS Windows",
+    "rating": 4.5,
+    "numReviews": 8,
+    "countInStock": 20,
+    "spec1":"CPU: 2 Cores",
+    "spec2":" Memory: 4GB",
+    "spec3":"Storage: 60GB SSD",
+    "spec4":"Transfer: 2TB",
+    "package": "1 year subscription",
+    "desc": "Renew at 20% discount off"
+    
+  },
+  {
+    "id": 2,
+    "name": "VPS - Linux",
+    "slug":"cloud",
+    "category": "Digital Transformation",
+    "price": 999,
+    "image":"https://media.1lives.us/wp-content/uploads/2022/11/Linux.jpg",
+    "quantity":1,
+    "brand": "Cloud VPS Linux",
+    "rating": 4.5,
+    "numReviews": 8,
+    "countInStock": 20,
+    "spec1":"CPU: 2 Cores",
+    "spec2":" Memory: 4GB",
+    "spec3":"Storage: 60GB SSD",
+    "spec4":"Transfer: 2TB",
+    "package": "1 year subscription",
+    "desc": "Renew at 20% discount off"
+  }
+  
+]
+
+
