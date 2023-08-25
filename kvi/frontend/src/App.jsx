@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar'
+// import MegaMenu from './components/Navbar/MegaMenu';
+import Nav from './components/Navbar/Nav'
 // import Footer from "./components/footer/Footer";
 
 //Pages
@@ -22,7 +23,8 @@ const App = () => {
    return (
 <>
    <Router>
-      <Navbar />
+         {/* <MegaMenu /> */}
+      <Nav />
             <Routes>
                      {/* <Route path="/">
                         <Route index element={<Home />} />

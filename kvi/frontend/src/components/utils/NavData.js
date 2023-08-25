@@ -7,22 +7,23 @@ const NavData = [
     navitem: 'Technology Consulting',
     submenu: true,
     portfolio:'Bring the best Tech to your environment',
-    src:`https://media.1lives.us/wp-content/uploads/2022/11/hero.png`,
+    src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
     sublinks: [
       {
         id:11,
+        subnav: 'Digital Transformation',
+        link: '/digital',
+       
+      },
+      {
+        id:12,
         subnav: 'FinTech',
         link: '/fintech',
       },
       {
-        id:12,
-        subnav: 'Digital Transformation',
-        link: '/digital',
-      },
-      {
         id:13,
         subnav: 'Procurement',
-        link: '/cloud',
+        link: '/procurement',
       },
       {
         id:14,
@@ -30,15 +31,35 @@ const NavData = [
         link: '/training',
       },
     
-     
-    ],
+ 
+      {
+        id:15,
+        subnav:'Data center infrastructure',
+        link2:'/data-center'
+      },
+      {
+        id:16,
+        subnav:'Internet Service Provider Services',
+        link:'/isp'
+      },
+      {
+        id:17,
+        subnav:'Digital Marketing',
+        link:'/digital-marketing'
+      },
+      {
+        id:18,
+        subnav:'Structured Cabling',
+        link:'/cabling'
+      },
+    ]
   },
     {
       id:2,
       navitem: 'DevOps',
       submenu: true,
       portfolio:'DevOps Services',
-      src:`https://media.1lives.us/wp-content/uploads/2022/11/devops.png`,
+      src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
       sublinks: [
         {
           id:21,
@@ -70,7 +91,7 @@ const NavData = [
       navitem: 'SECaaS',
       submenu: true,
       portfolio:'Security as a Service',
-      src:`https://media.1lives.us/wp-content/uploads/2022/11/secaas.png`,
+      src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
       sublinks: [
        
         {
@@ -103,7 +124,7 @@ const NavData = [
       navitem: 'Assistive Technology',
       submenu: true,
       portfolio:'Virtual Memory',
-      src:`https://media.1lives.us/wp-content/uploads/2022/11/mind-e1669148523677.png`,
+      src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
       sublinks: [
        
         {
@@ -137,7 +158,7 @@ const NavData = [
       navitem: 'Solar Energy',
       submenu: true,
       portfolio:'Solar Energy Management',
-      src:`https://media.1lives.us/wp-content/uploads/2022/11/solar-scaled-e1669149322142.jpg`,
+      src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
       sublinks: [
         {
           id:51,
@@ -162,44 +183,44 @@ const NavData = [
       ],
     },
    
-    {
-      id:6,
-      navitem: 'Shop Now',
-      submenu: true,
-      portfolio:'Lowest Cost | Quality Products & Services!',
-      src:`https://media.1lives.us/wp-content/uploads/2022/11/shop.png`,
-      sublinks: [
-        {
-          id:61,
-          subnav: 'Software',
-          link: '/software',
-        },
-        {
-          id:62,
-          subnav: 'Hardware',
-          link: '/hardware',
-        },
-        {
-          id:63,
-          subnav: 'General Merchandise',
-          link: '/gm',
-        },
+    // {
+    //   id:6,
+    //   navitem: 'Shop Now',
+    //   submenu: true,
+    //   portfolio:'Lowest Cost | Quality Products & Services!',
+    //   src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
+    //   sublinks: [
+    //     {
+    //       id:61,
+    //       subnav: 'Software',
+    //       link: '/software',
+    //     },
+    //     {
+    //       id:62,
+    //       subnav: 'Hardware',
+    //       link: '/hardware',
+    //     },
+    //     {
+    //       id:63,
+    //       subnav: 'General Merchandise',
+    //       link: '/gm',
+    //     },
        
         
        
-      ],
-    },
+    //   ],
+    // },
     
     {
-      id:7,
+      id:6,
       navitem: 'About Us',
       submenu: true,
       portfolio:'We want to be part of your success!',
-      src:`https://media.1lives.us/wp-content/uploads/2022/11/about.png`,
+      src:`https://media.kvilr.com/wp-content/uploads/2023/07/server-1235959.jpg`,
       sublinks: [
        
         {
-          id:71,
+          id:61,
           subnav: 'Projects',
           link: '/projects',
         },

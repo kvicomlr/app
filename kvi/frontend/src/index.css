@@ -1,4 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --primary-color: #032b35;
+    --primary-color1: #adcee2;
+    --primary-red: #ff0101;
+    --primary-brown:#b78711; 
+     --online: #31A24C;
+    --offline: #b4b6b5;
+    --white:#fff;
+    --black:rgb(0, 0, 0);
+    --border: .1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --box-shadow1: rgb(0, 40, 104);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+    --dark-bg:rgba(0,0,0,.7);
+    --bgmain:#e7f8fd;
+
+  }
+
+  * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style-type: none;
+    
+    
+  }
+
+
+  
+  html{
+    font-size: 97%;
+    overflow-x: hidden;
+   
+  }
+  
+  html::-webkit-scrollbar{
+    width: 1rem;
+  }
+  html::-webkit-scrollbar-track{
+    background-color: var(--white);
+  }
+  html::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+  }
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer components {
+
+
+    /* .main-nav{
+        @apply container mx-auto px-4 py-6 flex items-center justify-between;
+    } */
+
+    .main-header{
+        @apply container mx-auto px-4 py-6 flex items-center justify-between;
+    }
+    .title-text{
+        @apply font-bold text-[--primary-color] text-xl;
+    }
+    .sign-in-link{
+        @apply rounded-full px-3 py-2 font-semibold bg-[--primary-color] text-[--white] bg-opacity-10 flex items-center ;
+    }
+    .sign-in-main{
+        @apply mr-2;
+    }
+
+    .nav-items-ul{
+        @apply flex items-center justify-center font-semibold;
+    }
+    .nav-items-ul-li{
+        @apply relative px-3 py-2;
+    }
+    .nav-items-ul-btn{
+        @apply hover:opacity-50 cursor-default;
+    }
+}
